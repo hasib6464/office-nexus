@@ -74,7 +74,7 @@ const Footer = () => {
             </a>
           </div>
         </nav>
-        <nav className="text-lg pl-16">
+        <nav className="text-lg pl-44">
           <h6 className=" text-lg font-bold text-black">Custom title</h6>
           <a className="link link-hover">Home</a>
           <a className="link link-hover">Services</a>

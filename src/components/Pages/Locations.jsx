@@ -2,6 +2,7 @@ import React from "react";
 import waiting from "../../assets/officeRoom.jpg";
 import { SlLocationPin } from "react-icons/sl";
 import { FaLocationDot } from "react-icons/fa6";
+import { Link } from "react-router";
 
 const Locations = () => {
   return (
@@ -9,9 +10,11 @@ const Locations = () => {
       {/* title */}
       <div className="flex justify-between my-10">
         <h1 className="text-4xl font-bold">Explore Our Locations</h1>
-        <button className="btn  bg-indigo-900 text-[15px] text-white w-[138px] py-7 mr-4">
-          View Locations
-        </button>
+        <Link to="/allLocation">
+          <button className="btn  bg-indigo-900 text-[15px] text-white w-[138px] py-7 mr-4">
+            View Locations
+          </button>
+        </Link>
       </div>
       {/* details */}
       <div className="flex justify-between">

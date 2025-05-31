@@ -9,6 +9,8 @@ import About from "./components/Pages/About.jsx";
 import Services from "./components/Pages/Services.jsx";
 import Locations from "./components/Pages/Locations.jsx";
 import Contact from "./components/Pages/Contact.jsx";
+import AddServices from "./components/Pages/AddServices.jsx";
+import AllLocation from "./components/Pages/AllLocation.jsx";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
       {
         path: "/Contact",
         Component: Contact,
+      },
+      {
+        path: "/addServices",
+        Component: AddServices,
+      },
+      {
+        path: "/allLocation",
+        Component: AllLocation,
       },
     ],
   },
