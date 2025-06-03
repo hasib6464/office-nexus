@@ -5,7 +5,7 @@ const AllLocation = () => {
   return (
     <div className="mt-10">
       <div className="flex flex-col justify-center items-center py-10 mb-5 shadow space-y-5 bg-base-200">
-        <h1 className="text-5xl font-bold">Our Locations</h1>
+        <h1 className="text-5xl font-bold">All Locations</h1>
         <p className="w-1/2 text-center">
           Explore our Services page to discover a range of cutting-edge work
           environments designed to meet every professional need.

@@ -8,7 +8,7 @@ const Locations = () => {
   return (
     <div className="mt-20">
       {/* title */}
-      <div className="flex justify-between my-10">
+      <div className="lg:flex justify-between my-10">
         <h1 className="text-4xl font-bold">Explore Our Locations</h1>
         <Link to="/allLocation">
           <button className="btn  bg-indigo-900 text-[15px] text-white w-[138px] py-7 mr-4">
@@ -17,7 +17,7 @@ const Locations = () => {
         </Link>
       </div>
       {/* details */}
-      <div className="flex justify-between">
+      <div className="lg:flex justify-between">
         {/* img */}
         <div className="flex">
           <div className="bg-blue-900 w-[496px] h-[405px] rounded-lg"></div>

@@ -93,7 +93,7 @@ const Footer = () => {
         <hr></hr>
       </footer>
       <hr></hr>
-      <div className="pt-16  pb-24 flex justify-between">
+      <div className="pt-16  pb-24 lg:flex justify-between">
         <h4 className=" text-xl">
           <span className="font-bold">Office</span>Nexus
         </h4>

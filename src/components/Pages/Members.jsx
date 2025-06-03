@@ -7,12 +7,12 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 const Members = () => {
   return (
     <div className="my-32 bg-gray-900 ">
-      <div className="carousel w-[1200px]">
+      <div className="carousel lg:w-[1200px]">
         <div
           id="slide1"
-          className="carousel-item flex flex-col justify-center items-center relative w-[1192px] text-white"
+          className="carousel-item flex flex-col justify-center items-center relative   lg:w-[1192px] text-white"
         >
-          <div className="w-[800px]  ">
+          <div className="lg:w-[800px]  ">
             <h1 className="text-4xl font-bold text-center my-16">
               What our Members Say
             </h1>
@@ -23,7 +23,7 @@ const Members = () => {
               delivered. Their flexible office solutions and future-proof
               technology have allowed us to scale effortlessly.
             </p>
-            <div className="flex justify-between">
+            <div className="lg:flex justify-between">
               <div className="flex space-x-5 items-center mb-20">
                 <div className="avatar">
                   <div className="w-28 rounded-full">
@@ -50,9 +50,9 @@ const Members = () => {
         </div>
         <div
           id="slide2"
-          className="carousel-item flex flex-col justify-center items-center relative w-[1192px] text-white"
+          className="carousel-item flex flex-col justify-center items-center relative  lg:w-[1192px] text-white"
         >
-          <div className="w-[800px]  ">
+          <div className="lg:w-[800px]  ">
             <h1 className="text-4xl font-bold text-center my-16">
               What our Members Say
             </h1>
@@ -63,7 +63,7 @@ const Members = () => {
               creative and inspiring environment to meet and collaborate with
               other professionals.
             </p>
-            <div className="flex justify-between">
+            <div className="lg:flex justify-between">
               <div className="flex space-x-5 items-center mb-20">
                 <div className="avatar">
                   <div className="w-28 rounded-full">
@@ -90,9 +90,9 @@ const Members = () => {
         </div>
         <div
           id="slide3"
-          className="carousel-item flex flex-col justify-center items-center relative w-[1192px] text-white"
+          className="carousel-item flex flex-col justify-center items-center relative lg:w-[1192px] text-white"
         >
-          <div className="w-[800px]  ">
+          <div className="lg:w-[800px]  ">
             <h1 className="text-4xl font-bold text-center my-16">
               What our Members Say
             </h1>
@@ -103,7 +103,7 @@ const Members = () => {
               delivered. Their flexible office solutions and future-proof
               technology have allowed us to scale effortlessly.
             </p>
-            <div className="flex justify-between">
+            <div className="lg:flex justify-between">
               <div className="flex space-x-5 items-center mb-20">
                 <div className="avatar">
                   <div className="w-28 rounded-full">

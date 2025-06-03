@@ -1,16 +1,46 @@
 import React from "react";
+import Swal from "sweetalert2";
 
 const AddServices = () => {
   const handleAddService = (e) => {
     e.preventDefault();
-    console.log("mama mathai nosto");
+    const form = e.target;
+    const name = form.name.value;
+    const details = form.details.value;
+    const cost = form.cost.value;
+    const icon = form.icon.value;
+    const employee = form.employee.value;
+    const title = form.title.value;
+    const allData = { name, details, cost, icon, employee, title };
+    // console.log(name, details, cost, icon, employee, title);
+
+    fetch("http://localhost:3000/services", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(allData),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        // if (data.modifiedCount) {
+        //   Swal.fire({
+        //     position: "top-end",
+        //     icon: "success",
+        //     title: "Your work has been saved",
+        //     showConfirmButton: false,
+        //     timer: 1500,
+        //   });
+        // }
+        console.log(data);
+      });
   };
 
   return (
-    <div className="flex flex-cols items-center justify-center mt-20">
+    <div className="lg:flex flex-cols items-center justify-center lg:mt-20">
       <form
         onSubmit={handleAddService}
-        className="grid grid-cols-1 md:grid-cols-2 gap-4  w-2/3"
+        className="grid grid-cols-1 md:grid-cols-2 gap-4  lg:w-2/3"
       >
         <fieldset className="fieldset bg-base-200 border-base-300 rounded-box  border p-4">
           <label className="label">Name</label>

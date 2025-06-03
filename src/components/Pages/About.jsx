@@ -3,17 +3,18 @@ import about1 from "../../assets/aboutimg.jpg";
 import about2 from "../../assets/aboutimg2.jpg";
 import about3 from "../../assets/aboutimg3.jpg";
 import metting from "../../assets/meeting1.jpg";
+import CountUp from "react-countup";
 
 const About = () => {
   return (
     <div className="">
       {/* title */}
-      <div className="w-1/2 mx-auto my-10">
-        <div className="flex flex-col justify-center items-center py-10 mb-5 shadow space-y-5 bg-base-200">
-          <h1 className="text-5xl text-center font-bold">
+      <div className="lg:w-1/2 w-[300px] lg:mx-auto lg:my-10">
+        <div className="lg:flex flex-col lg:justify-center lg:items-center py-10 mb-5 shadow space-y-5 bg-base-200">
+          <h1 className="lg:text-5xl lg:text-center font-bold">
             Office Nexus: Modern Workspace Design
           </h1>
-          <p className=" text-center text-lg">
+          <p className=" lg:text-center text-lg">
             Explore our Services page to discover a range of cutting-edge work
             environments designed to meet every professional need.
           </p>
@@ -42,7 +43,7 @@ const About = () => {
       </div>
 
       {/* work hub */}
-      <div className="flex my-30  px-3 py-20 bg-slate-100">
+      <div className="lg:flex my-30  px-3 py-20 bg-slate-100">
         <div className="">
           <h1 className="text-4xl font-bold pb-10">
             Our Story: Crafting the WorkHub Experience
@@ -68,7 +69,7 @@ const About = () => {
       </div>
 
       {/* mission and vission */}
-      <div className="flex justify-between my-20">
+      <div className="lg:flex justify-between my-20">
         <div className=" w-[457px] h[559px]">
           <img className="rounded-lg" src={metting}></img>
         </div>
@@ -85,7 +86,7 @@ const About = () => {
       </div>
 
       {/*  Quality commitment*/}
-      <div className="flex justify-between my-10">
+      <div className="lg:flex justify-between my-10">
         <div className="w-[580px] flex flex-col justify-center space-y-10">
           <h1 className="text-4xl font-bold">
             Quality Commitment: Upgrading Your Workspace
@@ -96,15 +97,21 @@ const About = () => {
           </p>
           <div className="flex space-x-10">
             <div>
-              <p className="text-4xl font-bold text-blue-800">5+</p>
+              <p className="text-4xl font-bold text-blue-800">
+                <CountUp start={1} duration={4.75} end={10} />+
+              </p>
               <p className="text-lg">Years in Operation</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-blue-800">6+</p>
+              <p className="text-4xl font-bold text-blue-800">
+                <CountUp start={0} duration={4.75} end={6} />+
+              </p>
               <p className="text-lg">Locations</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-blue-800">100+</p>
+              <p className="text-4xl font-bold text-blue-800">
+                <CountUp start={1} duration={4.75} end={100} />+
+              </p>
               <p className="text-lg">Events Hosted</p>
             </div>
           </div>
@@ -116,8 +123,8 @@ const About = () => {
 
       {/* revolution workspace */}
       <div className="bg-gray-900 py-24 rounded-lg mb-20">
-        <div className="w-[572px] text-center text-white mx-auto ">
-          <h1 className="text-4xl font-bold">
+        <div className="w-[300px] lg:w-[572px] lg:text-center text-white mx-auto ">
+          <h1 className="lg:text-4xl font-bold">
             {" "}
             Ready to Revolutionize Your Workspace?
           </h1>

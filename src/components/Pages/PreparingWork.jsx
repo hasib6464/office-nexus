@@ -4,7 +4,7 @@ import workSpace from "../../assets/worksapace.webp";
 
 const PreparingWork = () => {
   return (
-    <div className="flex justify-between my-20 ">
+    <div className="lg:flex justify-between my-20 ">
       <div className="flex flex-col justify-center w-[472px] space-y-8 ">
         <h2 className="text-4xl font-bold">
           Preparing Your Workspace for Tomorrow

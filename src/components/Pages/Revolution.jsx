@@ -3,8 +3,8 @@ import chair from "../../assets/chair.png";
 
 const Revolution = () => {
   return (
-    <div className="bg-slate-900 flex justify-between h-[462px] items-center px-16 rounded my-20">
-      <div className="text-white w-[452px] space-y-8 ">
+    <div className="bg-slate-900 lg:flex justify-between w-full lg:h-[462px] items-center lg:px-16 rounded lg:my-20">
+      <div className="text-white lg:w-[452px] space-y-8 ">
         <h1 className="text-4xl font-bold">
           Ready to Revolutionize Your Workspace?
         </h1>

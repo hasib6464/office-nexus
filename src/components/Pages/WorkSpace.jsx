@@ -4,8 +4,8 @@ import sapceImg from "../../assets/common space.jpg";
 const WorkSpace = () => {
   return (
     <div className="">
-      <div className="grid grid-cols-12 my-20">
-        <div className="col-span-4 z-10 w-[600px] h-[330px] justify-center  mt-24">
+      <div className="grid lg:grid-cols-12 my-20">
+        <div className="lg:col-span-4 z-10 w-[600px] h-[330px] justify-center  mt-24">
           <div className="     py-16 px-12 rounded bg-slate-100">
             <h1 className="text-5xl font-bold">
               Craft Your Workspace with Office Nexus
@@ -23,7 +23,7 @@ const WorkSpace = () => {
             </div>
           </div>
         </div>
-        <div className="relative col-span-8 ">
+        <div className="relative lg:col-span-8 ">
           <img className=" rounded" src={sapceImg}></img>
         </div>
       </div>

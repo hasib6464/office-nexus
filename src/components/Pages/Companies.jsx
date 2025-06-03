@@ -10,7 +10,7 @@ const Companies = () => {
   return (
     <div className="flex flex-col items-center space-y-16 pb-16 my-10">
       <h1 className="text-4xl font-bold">Trusted by Leading Companies</h1>
-      <div className="grid grid-cols-3 gap-14 it">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-14 it">
         <img src={img1}></img>
         <img src={img2}></img>
         <img src={img3}></img>

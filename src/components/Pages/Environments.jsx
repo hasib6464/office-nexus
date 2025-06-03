@@ -5,7 +5,7 @@ import { FaCheck } from "react-icons/fa6";
 const Environments = () => {
   return (
     <div>
-      <div className="flex justify-between my-20 ">
+      <div className="lg:flex justify-between my-20 ">
         <div className="">
           <img src={environment}></img>
         </div>
